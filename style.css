@@ -6,4 +6,10 @@ h3 {
   font-size: 20px;
   border:1px solid blue;
   font-family: fantasy;
+  padding:1px;
+  margin:1px;
+  text-align:center;
+}
+li,dt,dd {
+  color:red;
 }
