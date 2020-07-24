@@ -4,18 +4,18 @@
       <title>Media query property</title>
       <style>
         @media (min-width:500px) {
-          h1::before {
-            content:"Welcome to my webpage!";
+          body {
+            background-color:red;
           }
         }
         @media (max-width:499px) {
-            h1::before {
-              content:"Welcome!"
+            body {
+              background-color:blue;
             }
         }
       </style>
   </head>
   <body>
-    <h1></h1>
+    <h1>Welcome to my webpage!</h1>
   </body>
 </html>
