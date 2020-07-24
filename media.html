@@ -14,9 +14,61 @@
               background-color:blue;
             }
         }
+        header {
+          background-color:lightgrey;
+        }
+        input[type=name] {
+          background-color:lightblue;
+        }
+        input[type=number] {
+          background-color:blue;
+        }
+        h4 {
+          background-color:grey;
+        }
       </style>
   </head>
-  <body>
-    <h1>Welcome to my webpage!</h1>
+  <body style="border:2px solid black;">
+    <form>
+    <header style="text-align:center;">
+    <h2>Admission Form</h2>
+    </header>
+    <hr style="color:black;">
+    <div>
+      <h4>Personal information</h4>
+      <input name="name" type="name" placeholder="Name">
+        <input name="number" type="number" placeholder="Phone number">
+      <input name="Email" type="email address" placeholder="Email address">
+      <input name="password" type="password" placeholder="Password">
+      </div>
+      <div>
+       <h4>Additional information<h4>
+        <input name="name" type="name" placeholder="Father name">
+        <input name="number" type="number" placeholder="Phone number">
+        <input name="number" type="number" placeholder="ID card number">
+        <input name="name" type="name" placeholder="religion">
+        <input name="name" type="name" placeholder="country">
+        <input name="name" type="name" placeholder="city">
+      </div>
+      <div>
+        <h4>Study information</h4>
+        <input name="degree" type="radio" value="bachellors">bachellors
+        <input name="degree" type="radio" value="masters">Masters
+      </div>
+      <div>
+        <input name="subject" list="subject" placeholder="Subject">
+        <datalict id="subject">
+          <option value="Chemistry">
+          <option value="Physics">
+          <option value="Mathematics">
+          <option value="Biology">
+          <option value="Computer">
+          <option value="Education">
+          <option value="Physical Education">
+          <option value="English">
+          <option value="Urdu">
+          <option value="Arabic">
+      </div>
+    </form>
   </body>
 </html>
