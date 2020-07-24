@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Media query property</title>
+      <style>
+        @media (min-width:500px) {
+          body {
+            background-color:blue;
+          }
+        }
+        @media (max-width:499px) {
+          body {
+            background-color:red;
+          }
+        }
+        @media (min-width:500px) {
+          h1::before {
+            Welcome to my webpage!
+          }
+        }
+        @media (max-width:499px) {
+            h1::before {
+              Welcome!
+            }
+        }
+      </style>  
+  </head>
+  <body>
+    <h1>shrink the webpage to see the result</h1>
+  </body>
+</html>
